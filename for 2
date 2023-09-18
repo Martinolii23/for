@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main (){
+	
+	int num1,suma,cuadrado,a;
+	printf("De cuantos numeros lo quiere?");
+	scanf("%d",&num1);
+	
+		for ( a=1; a<=num1;a++){
+			/*printf ("De cuantos numeros lo quiere?");
+	      scanf("%d",&num1);*/
+		cuadrado = a * a;
+		suma+=cuadrado; 
+	//	printf("%d",suma);
+	}
+	
+	printf("El resultado es:");
+	printf("%d",suma);
+	
+	
+	
+		
+	return 0;
+}
