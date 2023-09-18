@@ -1,0 +1,13 @@
+#include <stdio.h>
+//Escribir en lenguaje C un programa que calcule la suma de los cuadrados de los100 primeros números enteros.
+int main (){
+	int suma=0,cuadrado,a;
+	for ( a=1; a<=100;a++){
+		cuadrado = a * a;
+		suma+=cuadrado;
+	//	printf("%d",suma);
+	}
+	printf("El resultado es:");
+	printf("%d",suma);
+	return 0; 
+}
